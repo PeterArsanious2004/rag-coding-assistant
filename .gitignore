@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Generated vector-store data
+chroma_db/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
